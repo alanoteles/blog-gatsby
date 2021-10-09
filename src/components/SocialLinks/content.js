@@ -3,7 +3,7 @@ const handle = 'alanoteles'
 const links = [
   {
     label: "Github",
-    url: `https://githug.com/${handle}`
+    url: `https://github.com/${handle}`
   },
   {
     label: "Twitter",
