@@ -14,10 +14,10 @@ const MenuBar = () => (
 
   <S.MenuBarWrapper>
     <S.MenuBarGroup>
-      <S.MenuBarLink to="/" title="Voltar para a Home">
+      <S.MenuBarLink to="/" title="Go to Home">
         <S.MenuBarItem><Home /></S.MenuBarItem>
       </S.MenuBarLink>
-      <S.MenuBarLink to="/search" title="Pesquisar">
+      <S.MenuBarLink to="/search" title="Search">
         <S.MenuBarItem><Search /></S.MenuBarItem>
       </S.MenuBarLink>
     </S.MenuBarGroup>

@@ -6,6 +6,10 @@ const links = [
   {
     title: "About me",
     url: "/about/"
+  },
+  {
+    title: "Articles",
+    url: "/articles/"
   }
 ]
 
