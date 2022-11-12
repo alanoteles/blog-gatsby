@@ -23,9 +23,9 @@ const MenuBar = () => (
     </S.MenuBarGroup>
 
     <S.MenuBarGroup>
-      <S.MenuBarItem title="Mudar o tema"><Light /></S.MenuBarItem>
-      <S.MenuBarItem title="Mudar visualização"><Grid /></S.MenuBarItem>
-      <S.MenuBarItem title="Ir para o topo"><Arrow /></S.MenuBarItem>
+      <S.MenuBarItem title="Change theme"><Light /></S.MenuBarItem>
+      <S.MenuBarItem title="Change visualization"><Grid /></S.MenuBarItem>
+      <S.MenuBarItem title="Go to top"><Arrow /></S.MenuBarItem>
     </S.MenuBarGroup>
   </S.MenuBarWrapper>
   </>
