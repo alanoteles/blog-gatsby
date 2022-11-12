@@ -10,6 +10,9 @@ const IndexPage = () => {
       query MyQuery {
           allMarkdownRemark {
               nodes {
+                  fields {
+                      slug
+                  }
                   frontmatter {
                       title
                       description
@@ -35,10 +38,10 @@ const IndexPage = () => {
   <Layout>
     <SEO title="Home" />
     { postList.map(({ frontmatter: { background, category, description, title, date },
-     timeToRead ,
+     timeToRead, fields: { slug } ,
     }, i) => (
       <PostItem
-        slug="/about/"
+        slug={slug}
         category={category}
         background={background}
         date={date}
