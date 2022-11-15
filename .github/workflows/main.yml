@@ -36,5 +36,7 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       # Runs a set of commands using the runners shell
-      - run: yarn install
+      - run: |
+        export NODE_OPTIONS="--max_old_space_size=4096"
+        yarn install
       - run: gatsby build
